@@ -34,20 +34,24 @@ public class SideD00rClientHandler implements Runnable {
             TermUtils.setTerminalName("SideD00r @" + InetAddress.getLocalHost().getHostAddress(), writer);
             SideD00rArt.beginWelcomeArtProcess(writer);
             while (true) {
-                writer.write(getPrefix());
-                writer.flush();
-                final String i = reader.readLine();
-                new Thread() {
-                    @Override
-                    public void run() {
-                        try {
-                            Input.processInput(i, writer);
-                            Thread.sleep(3400);
-                        }catch (Exception e){
+                try {
+                    writer.write(getPrefix());
+                    writer.flush();
+                    final String i = reader.readLine();
+                    new Thread() {
+                        @Override
+                        public void run() {
+                            try {
+                                Input.processInput(i, writer);
+                            } catch (Exception e) {
 
+                            }
                         }
-                    }
-                }.start();
+                    }.start();
+                    Thread.sleep(2000);
+                }catch (Exception e){
+
+                }
             }
 
 

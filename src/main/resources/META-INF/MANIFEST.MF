@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: me.aaronakhtar.sided00r.SideD00r
+
