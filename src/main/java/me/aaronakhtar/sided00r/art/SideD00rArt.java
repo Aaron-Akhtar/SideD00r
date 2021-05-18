@@ -1,7 +1,6 @@
 package me.aaronakhtar.sided00r.art;
 
 import java.io.BufferedWriter;
-import java.io.IOException;
 
 public class SideD00rArt {
 

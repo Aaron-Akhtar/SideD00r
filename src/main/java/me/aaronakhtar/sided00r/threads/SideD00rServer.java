@@ -4,7 +4,6 @@ import me.aaronakhtar.sided00r.SideD00r;
 import me.aaronakhtar.sided00r.threads.handlers.SideD00rClientHandler;
 
 import java.net.ServerSocket;
-import java.net.Socket;
 
 public class SideD00rServer extends Thread {
 
