@@ -6,7 +6,7 @@
 
     <groupId>me.aaronakhtar.sided00r</groupId>
     <artifactId>SideD00r</artifactId>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
