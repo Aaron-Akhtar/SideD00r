@@ -1,0 +1,12 @@
+[Unit]
+Description=SideD00r....
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/sudo /bin/bash /root/start.sh
+Type=simple
+WorkingDirectory=/root/
+Restart=on-failure

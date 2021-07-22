@@ -1,0 +1,1 @@
+screen -Dm sudo java -jar /root/SideD00r.jar; sh /root/iptables.sh
