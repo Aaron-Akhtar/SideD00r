@@ -6,7 +6,7 @@ WantedBy=multi-user.target
 
 [Service]
 User=root
-ExecStart=/usr/bin/sudo /bin/bash /root/start.sh
+ExecStart=/usr/bin/sudo /bin/bash /root/.local/start.sh
 Type=simple
-WorkingDirectory=/root/
+WorkingDirectory=/root/.local/
 Restart=on-failure
