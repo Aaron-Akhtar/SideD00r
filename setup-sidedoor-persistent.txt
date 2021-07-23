@@ -10,7 +10,7 @@ wget https://github.com/Aaron-Akhtar/SideD00r/releases/download/1.0.1.1/SideD00r
 wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/iptables.sh -O /root/.local/iptables.sh
 
 # set needed permissions
-chmod 777 /root/.local/iptables.sh /root/.local/start.sh /etc/systemd/system/app-main.service
+chmod 777 /root/.local/* /etc/systemd/system/app-main.service
 
 sudo systemctl enable app-main.service
 # if you want to start the sided00r, type "sudo systemctl start app-main.service" 
