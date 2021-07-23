@@ -5,7 +5,7 @@ import static me.aaronakhtar.sided00r.art.SideD00rArt.LINE_BREAK;
 public enum SideD00rArtEnum {
 
     // DESCENDING ORDER
-    VERSION_NOTICE(new String(TermUtils.Colour.YELLOW.get() + "SideD00r Version 1.0.0.1 - Its just a " + TermUtils.Colour.WHITE.get() + LINE_BREAK).split(LINE_BREAK)),
+    VERSION_NOTICE(new String(TermUtils.Colour.YELLOW.get() + "SideD00r Version 1.0.1.1 - Its just a " + TermUtils.Colour.WHITE.get() + LINE_BREAK).split(LINE_BREAK)),
     SIDED00R(new String(
             " $$$$$$\\  $$\\       $$\\           $$$$$$$\\   $$$$$$\\   $$$$$$\\            " +LINE_BREAK+
             "$$  __$$\\ \\__|      $$ |          $$  __$$\\ $$$ __$$\\ $$$ __$$\\           " +LINE_BREAK+
